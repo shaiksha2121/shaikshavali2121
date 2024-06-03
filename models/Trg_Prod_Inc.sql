@@ -4,5 +4,5 @@
 select * from Prod.src_product
 {%if is_incremental()%}
 where 
-UPDATED_DT>(select max(UPDATED_DT) from{{this}})
+UPDATED_DT>(select max(UPDATED_DT) from {{this}})
 {%endif%}
