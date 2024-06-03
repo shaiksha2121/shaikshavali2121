@@ -1,4 +1,4 @@
-{%snapshot emp_snap1%}
+{%snapshot emp_snap11%}
 {{config(
     target_database='DBT_TEST',
     target_schema='Prod',
