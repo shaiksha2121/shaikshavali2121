@@ -1,0 +1,11 @@
+id,o_id,pay_method,amount
+1,1,credit,1000
+2,2,credit,2000
+3,3,gift,2500
+4,4,coupon,3000
+5,5,gift,3000
+6,6,gift,4000
+7,7,coupon,4000
+8,8,bank_tran,5000
+9,9,bank_tran,6000
+10,10,coupon,6500
