@@ -1,0 +1,11 @@
+version:2
+  - name: STG_PRODUCT2
+    description: "This will store product information"
+    columns:
+      - name: PRODUCT_ID
+        description: "The primary key"
+        tests:
+          - unique
+          - not_null
+
+
