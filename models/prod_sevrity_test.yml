@@ -1,0 +1,13 @@
+
+models:
+    - name: Stg_Prod_Info
+      description: "This stores a Prod info "
+      columns:
+          - name: REGION
+            description: "It stores the Region Info"
+            tests:
+                - not_null:
+                   config:
+                       severity: error
+                       error_if: ">5"
+                       warn_if: ">3"

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: test_prod
+    database: DBT_TEST  
+    schema: PROD  
+    tables:
+      - name: store
+      - name: store_sales
